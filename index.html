@@ -5,20 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="link rel="preconnect href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <title>Web studio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+  
+    <title>Web Studio</title>
 </head>
+
 
 <body>
 
-    <!--HEADER-->
+<!--HEADER-->
    
     <header class="header">
         <!--navigation menu-->
-        <nav class="navigation"></nav>
+        <nav class="navigation">
         <!--logo-->
         <a class="navigation-logo" href="#">Web Studio</a>
         
@@ -31,6 +34,7 @@
                     <a class="navigation-list-link" href="#">Kontakt</a></li>
             </ul>
         </nav>
+
         <a class="address-phone-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
         <a class="address-phone-mail" href="tel:+48111111111">+48 111 111 111</a>
     </header>
@@ -77,35 +81,35 @@
         </section>
 
         <!--WHAT DO WE DO?-->
-        <section>
+        <section class="what-do-we-do">
             <h2 class="headline">Czym się zajmujemy</h2>
-            <ul>
-                <li><img src="images1/box1(1).jpg" alt="programowanie" width="370" height="294"> </li>
-                <li><img src="images1/box2(1).jpg" alt="tworzenie aplikacji mobilnych" width="370" height="294"> </li>
-                <li><img src="images1/box3(1).jpg" alt="projektowanie" width="370" height="294"> </li>
+            <ul class="img-list">
+                <li class="img-list-item"><img src="images1/box1(1).jpg" alt="programowanie" width="370" height="294"> </li>
+                <li class="img-list-item"><img src="images1/box2(1).jpg" alt="tworzenie aplikacji mobilnych" width="370" height="294"> </li>
+                <li class="img-list-item"><img src="images1/box3(1).jpg" alt="projektowanie" width="370" height="294"> </li>
             </ul>
         </section>
-
+ 
         <!--OUR TEAM-->
         <section>
             <h2 class="headline">Nasz zespół</h2>
-            <ul class="photos-list">
-                <li>
+            <ul class="img-list">
+                <li class="img-list-item">
                     <img src="images1/img(1).jpg" alt="zdjęcie profilowe Johna Doe" width="270" height="260">
                     <h3 class="photo-name">John Doe</h3>
-                    <p class="job-description">Product designer</p>
+                    <p class="job-description">Product Designer</p>
                 </li>
-                <li>
+                <li class="img-list-item">
                     <img src="images1/img(2).jpg" alt=" zdjęcie profilowe Johna Doe" width="270" height="260">
                     <h3 class="photo-name">John Doe</h3>
                     <p class="job-description">Frontend Developer</p>
                 </li>
-                <li>
+                <li class="img-list-item">
                     <img src="images1/img(3).jpg" alt=" zdjęcie profilowe Johna Doe" width="270" height="260">
                     <h3 class="photo-name">John Doe</h3>
                     <p class="job-description">Marketing</p>
                 </li>
-                <li>
+                <li class="img-list-item">
                     <img src="images1/img(4).jpg" alt=" zdjęcie profilowe Johna Doe" width="270" height="260">
                     <h3 class="photo-name">John Doe</h3>
                     <p class="job-description">Ul Designer</p>
@@ -116,19 +120,18 @@
 
     <!--ADDRESS-->
     <footer>
-        <div class="footer-background">
-        <h2><a class="navigation-logo" href="#">Web Studio</a>
-            <h2>
+        <section class="footer-background">
+        <a class="navigation-logo" href="#">Web Studio</a>
+    
                 <address class="address">
                     <ul>
-                        <li>
-                            <p class="adress-paragraf">m.Warszawa, Aleje Jerozolimskie 21</p>
-                        </li>
+                        <li><p class="adress-paragraf">m.Warszawa, Aleje Jerozolimskie 21</p></li>
                         <li><a class="address-mail" href="mailto:info@example.com">info@example.com</a></li>
                         <li><a class="address-phone" href="tel:+48111111111">+48 111 111 111</a></li>
                     </ul>
                 </address>
-        </div>
+        </section>
+        
     </footer>
 </body>
 
