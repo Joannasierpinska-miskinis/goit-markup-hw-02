@@ -13,6 +13,16 @@ body {
 .background{
         background-color: #2F303A;
     }
+.logo,
+.navigation-list-link,
+.address-phone-mail,
+.footer-logo,
+.address-mail,
+.address-phone{
+    text-decoration: none;
+        none
+    }
+    
 /*########## END OF COMPONENTS ##########*/
 
 /* ########## HEADER ########## */
