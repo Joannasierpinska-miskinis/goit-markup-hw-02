@@ -80,6 +80,7 @@ body {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: var(--main-color);
+    cursor: pointer;
 }
     /* ##########  END HERO ########## */
 
@@ -130,6 +131,9 @@ body {
    
     color:#757575;
 }
+.our-team-background {
+    background-color: #F5F4FA;
+}
 /* ########### END OUR TEAM ############ */ 
 /*######### FOOTER ########### */
 .footer-background{
@@ -172,6 +176,7 @@ letter-spacing: 0.03em;
     text-align: center;
     color: #212121;
     background-color: #F5F4FA;
+    cursor: pointer;
 }
 .btn-main:hover {
     color: #FFFFFF;
